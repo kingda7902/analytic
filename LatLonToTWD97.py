@@ -32,7 +32,7 @@ class LatLonToTWD97(object):
         # delta x in meter
         self.dx = dx
 
-    def convert(self, lat, lon):
+    def convert(self, latlon):
         """Convert lat lon to twd97
 
         """
@@ -41,6 +41,9 @@ class LatLonToTWD97(object):
         long0 = self.long0
         k0 = self.k0
         dx = self.dx
+        lat = radians(float(latlon[0]))
+        lon = radians(float(latlon[1]))
+        
 
         e = (1-b**2/a**2)**0.5
         e2 = e**2/(1-e**2)
