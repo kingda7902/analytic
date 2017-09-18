@@ -61,12 +61,12 @@ class LatLonToTWD97(object):
 
         K1 = S*k0
         K2 = k0*nu*sin(2*lat)/4.0
-        K3 = (k0*nu*sin(lat)*(cos(lat)**3)/24.0) *            (5 - tan(lat)**2 + 9*e2*(cos(lat)**2) + 4*(e2**2)*(cos(lat)**4))
+        K3 = (k0*nu*sin(lat)*(cos(lat)**3)/24.0) * (5 - tan(lat)**2 + 9*e2*(cos(lat)**2) + 4*(e2**2)*(cos(lat)**4))
 
         y = K1 + K2*(p**2) + K3*(p**4)
 
         K4 = k0*nu*cos(lat)
-        K5 = (k0*nu*(cos(lat)**3)/6.0) *             (1 - tan(lat)**2 + e2*(cos(lat)**2))
+        K5 = (k0*nu*(cos(lat)**3)/6.0) * (1 - tan(lat)**2 + e2*(cos(lat)**2))
 
         x = K4*p + K5*(p**3) + self.dx
         return x, y
