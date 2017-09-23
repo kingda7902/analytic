@@ -6,7 +6,15 @@ project anylytic test note
 ## tag
 data/tag.csv
 tag field:['tag:pet', 'tag:transport', 'tag:capital', 'tag:home', 'tag:sport', 'tag:culture', 'tag:safe', 'tag:food']
-
+比率:
+tag:pet          0.191778
+tag:transport    0.429728
+tag:capital      0.248602
+tag:home         0.160979
+tag:sport        0.118228
+tag:culture      0.317091
+tag:safe         0.373096
+tag:food         0.260218
 
 
 ---
