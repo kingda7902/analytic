@@ -2,7 +2,10 @@
 
 project anylytic test note
 
-
+---
+## tag
+data/tag.csv
+tag field:['tag:pet', 'tag:transport', 'tag:capital', 'tag:home', 'tag:sport', 'tag:culture', 'tag:safe', 'tag:food']
 
 
 
