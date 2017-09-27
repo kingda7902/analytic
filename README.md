@@ -2,10 +2,18 @@
 
 project data mining note
 
-
-
-
+step1
 ---
+following KDnuggets's artical, dealing the outlier and skew data
+
+step2
+---
+KDE bandwidth selection
+
+step3 & step4
+---
+clustering or classifing
+
 
 ---
 reference:
